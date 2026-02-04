@@ -51,8 +51,18 @@ section {
   border-radius: 10px;
   padding: 20px;
 }
-div#divisora {
-  display: block;
-  
-  height: 35px;
+section h2 {
+  padding: 20px;
+ 
+}
+div.jogosfav1 {
+  background-color: rgb(255,99,71);
+  padding: 15px;
+  margin: 0px;
+}
+div.jogosfav2 {
+  background-color:  rgb(128, 203, 228);
+}
+div.jogosfav3 {
+  background-color: rgb(216, 216, 44);
 }
