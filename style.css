@@ -49,20 +49,35 @@ section {
   width: 1000px;
   margin: auto;
   border-radius: 10px;
+  position: relative;
+}
+div.boxdeass {
   padding: 20px;
+}
+div.list {
+  margin: auto;
 }
 section h2 {
   padding: 20px;
- 
 }
 div.jogosfav1 {
   background-color: rgb(255,99,71);
-  padding: 15px;
-  margin: 0px;
+  padding: 32px;
 }
 div.jogosfav2 {
   background-color:  rgb(128, 203, 228);
+  padding: 32px;
 }
 div.jogosfav3 {
   background-color: rgb(216, 216, 44);
+  padding: 32px;
+}
+p.listp {
+  text-align: center;
+}
+img.listimg {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
