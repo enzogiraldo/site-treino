@@ -46,7 +46,8 @@ main {
 }
 section {
   background-color: white;
-  width: 1000px;
+  min-width: 1000px;
+  max-width: 90vh;
   margin: auto;
   border-radius: 10px;
   position: relative;
