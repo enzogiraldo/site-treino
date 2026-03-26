@@ -60,6 +60,10 @@ div.list {
 }
 section h2 {
   padding: 20px;
+  font-size: 1.8em;
+}
+section p {
+  
 }
 div.jogosfav1 {
   background-color: rgb(255,99,71);

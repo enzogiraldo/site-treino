@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/*versão de desktop*/
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    height: 225px;
+    position: relative;
+}
+header > h1{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.767);
+  padding: 25px 50px;
+  border-radius: 10px;
+  font-size: 1.4;
+  border: 2px solid black;
+}
+header > p{
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.795);
+  padding: 5px 55px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: 2px solid black;
+  width: 260px;
+}
+main {
+  background-color: black;
+  position: relative;
+  background-image: url(../imagens/fundo\ do\ site.jfif);
+  background-attachment: fixed;
+  border: 4px black;
+}
+section {
+  min-width: 1000px;
+  max-width: 90vh;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+}
+section > div.boxdeass {
+   
+  background-color: rgba(255, 255, 255, 0.87); 
+  width: 79vw;
+  height: 150px;
+  margin: auto; 
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+}
+div.list {
+  margin: auto;
+}
+section h2 {
+  padding: 20px;
+  font-size: 1.8em;
+}
+section p {
+  
+}
+div.jogosfav1 {
+  background-color: rgb(255,99,71);
+  padding: 32px;
+}
+div.jogosfav2 {
+  background-color:  rgb(128, 203, 228);
+  padding: 32px;
+}
+div.jogosfav3 {
+  background-color: rgb(216, 216, 44);
+  padding: 32px;
+}
+p.listp {
+  text-align: center;
+}
+img.listimg {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
